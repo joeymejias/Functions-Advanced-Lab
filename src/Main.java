@@ -234,6 +234,8 @@ public class Main {
                 letter.equalsIgnoreCase("o") ||
                 letter.equalsIgnoreCase("u")){
             System.out.println("You entered a vowel!");
+        } else if (letter.equalsIgnoreCase("y")){
+            System.out.println("Y is sometimes a vowel. :)");
         } else {
             System.out.println("You entered a consonant!");
         }
